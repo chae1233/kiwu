@@ -1,9 +1,11 @@
 리눅스명령어
 clear
+mkdir 폴더이름
 
 
 깃 명령어
 git clone 원격리포지토리주소
 git clone 원격리포지토리주소 . (현재폴더에 바로가져오기)
 git log --oneline
-
+git remote -v (현재폴더랑 원격지 오리진주소확인)
+git remote remove origin
